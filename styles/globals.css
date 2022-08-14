@@ -215,6 +215,35 @@ img{
   height:80vh;
 }
 
+.footer{
+  background:#2B3674;
+  padding:50px 25px;
+  display: flex;
+  color:#fff;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.footer .about-us p{
+  font-size:1.12em;
+  font-weight: 500;
+  letter-spacing:1px;
+}
+
+.footer .about-us ul{
+  list-style:circle;
+  margin-left:10px;
+  margin-top:20px;
+}
+
+.footer .about-us ul li{
+  margin-bottom:5px;
+}
+
+.footer .about-us ul li a:hover{
+  text-decoration:underline;
+}
+
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

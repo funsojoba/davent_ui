@@ -63,6 +63,42 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="footer">
+                <div className="about-us">
+                    <p>About us</p>
+                    <ul>
+                        <li><a href="#">Users</a></li>
+                        <li><a href="#">Admin</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Organization</a></li>
+                    </ul>
+                </div>
+                
+                <div className="about-us">
+                    <p>Policies</p>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Data Protection</a></li>
+                    </ul>
+                </div>
+                
+                <div className="about-us">
+                    <p>Developers</p>
+                    <ul>
+                        <li><a href="#">API Docs</a></li>
+                    </ul>
+                </div>
+                
+                <div className="about-us">
+                    <p>Contact Us</p>
+                    <ul>
+                        <li>1342 Helis St. Alen Avenue Sanfrasisco, LA</li>
+                        <li>+1 234 5678 0</li>
+                        <li>help@davent.com</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     );
 }
