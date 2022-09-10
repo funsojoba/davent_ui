@@ -9,25 +9,23 @@ const HomePage = () => {
         <div className="home-container">
             <NavBar />
             
-            <ScrollAnimation animateIn="fadeIn">
                 <div className="section-one">
                     <div className="section-one-text">
                         <h1>DAVENT</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis sit odio pellentesque. Risus eu pharetra.</p>
                         <div className="buttons">
-                            <a id="link-hover" href="/signup" className="login">Log In</a>
-                            <a id="link-hover" className="signup">Sign Up</a>
+                            <a id="link-hover" href="/login" className="login">Log In</a>
+                            <a id="link-hover" href="/signup" className="signup">Sign Up</a>
                         </div>
                     </div>
                 </div>
-            </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn">
                 <div className="section-two">
                     <div className="section-two-text flex-child">
                         <h1 className="title-text">What is Davent?</h1>
                         <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis sit odio pellentesque. Risus eu pharetra.</p>
                         <div className="buttons">
-                            <a id="link-hover" className="get-started">Get Started</a>
+                            <a id="link-hover" href="/signup" className="get-started">Get Started</a>
                         </div>
                     </div>
                     <div className="section-two-image flex-child">
@@ -49,7 +47,7 @@ const HomePage = () => {
                         <h1 className="title-text">Get it done with ease</h1>
                         <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis sit odio pellentesque. Risus eu pharetra.</p>
                         <div className="buttons">
-                            <a id="link-hover" className="get-started">Get Started</a>
+                            <a id="link-hover" href="/signup" className="get-started">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +59,7 @@ const HomePage = () => {
                         <h1 className="title-text">Seamless service</h1>
                         <p className="paragraph">Get to know about the events happening around you, stay informed blah blah blah</p>
                         <div className="buttons">
-                            <a id="link-hover" className="get-started">Get Started</a>
+                            <a id="link-hover" href="/signup" className="get-started">Get Started</a>
                         </div>
                     </div>
                     <div className="section-two-image flex-child">
