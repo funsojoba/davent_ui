@@ -284,19 +284,50 @@ img{
   align-items:center;
   padding:20px;
 }
+.sign-in-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background: #121450;
+}
+
+.sign-in-one{
+  flex:1;
+  background:url("/signin.png");
+  background-size: cover;
+  background-position: center;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.sign-in-two{
+  flex:1;
+  background:#fff;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
 
 form{
   width:100%;
   display:flex;
   flex-direction:column;
-  background: rgba(0, 0, 0, 0.313);
   border-radius: 10px;
+}
+
+.sign-in-form{
+  width:80%;
 }
 
 .sign-up-form{
   margin-top:50px;
   height:70vh;
   overflow-y:scroll;
+  width:100%;
   
 }
 
@@ -318,6 +349,9 @@ label{
 .label-name-white{
   color:#fff
 }
+.label-name-blue{
+  color:#121450
+}
 
 .form-input{
   padding:15px 20px;
@@ -332,15 +366,36 @@ label{
   background: rgba(241, 226, 159, 1);
   color: rgb(18, 20, 80);
   padding:15px 25px;
-  border-radius:15px;
+  border-radius:10px;
   margin: 5px;
   cursor:pointer;
+  border:none;
 }
 .blue-button{
   color: rgba(241, 226, 159, 1);
   background: rgb(18, 20, 80);
   padding:15px 25px;
-  border-radius:15px;
+  border-radius:10px;
   margin: 5px;
   cursor:pointer;
+  border:none;
+}
+
+.help-text{
+  text-align:center;
+  padding:10px;
+  position:absolute;
+  bottom:10px;
+}
+
+.help-text .sign-in{
+  color:rgba(241, 226, 159, 1);
+}
+
+.help-text .sign-in-small{
+  color:black;
+}
+
+.help-text .sign-up-small{  
+  color:#fff;
 }

@@ -70,8 +70,12 @@ const HomePage = () => {
                             <div className="form-group">
                                 <button className="yellow-button">SIGN UP</button>
                             </div>
-
+                            
                         </form>
+                        
+                        <div className="help-text">
+                            <small className="sign-up-small">Already have an account? <a className="sign-in" href="login">Sign In</a> </small>
+                        </div>
                     </div>
                 </div>
             </div>
